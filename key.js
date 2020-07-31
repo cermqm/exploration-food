@@ -1,0 +1,1 @@
+var key = "bc32565f4eb8409290a3eaccfa8290bb";

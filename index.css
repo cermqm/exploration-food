@@ -1,0 +1,262 @@
+html {
+    background-color: #474b4f;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0px;
+    font-family: 'Be Vietnam', sans-serif;
+    overflow-x: hidden;
+}
+
+#profiles>section, #histories>section, button, input {
+    cursor: pointer;
+}
+
+form {
+    margin: 1em;
+}
+
+a {
+    color: #025d21 !important;
+}
+
+img {
+    border-radius: 1em;
+    box-shadow: 0 0 3px 3px #00000033;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #fff !important;
+}
+
+/* title positioning */
+h1 {
+    margin-bottom: 0px;
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+/* title size */
+.title.is-1 {
+    font-size: 7vw;
+}
+
+/* Checkbox Titles */
+.content h1 {
+    font-size: 32px;
+}
+
+hr {
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+/* checkbox icons */
+.checkbox {
+    margin-right: 7px;
+    margin-left: 7px;
+    margin-top: 5px;
+}
+
+/* text attached to each checkbox */
+.checkbox>span {
+    text-transform: capitalize;
+    font-size: 20px;
+}
+
+/* subtitle positioning */
+.content h3,
+h4 {
+    margin-bottom: 2px;
+    margin-left: -4px;
+    text-align: center;
+}
+
+/* subtitle spacing and size */
+.title.is-4 {
+    font-size: 2.75vw;
+    padding-bottom: 30px;
+}
+
+#recipes {
+margin: auto;
+}
+
+.field:not(:last-child) {
+    padding-top: 15px;
+}
+
+.hero-head {
+    padding-top: 1em;
+}
+
+.is-pulled-right {
+    padding-right: 1em;
+}
+
+.is-pulled-left {
+    padding-right: 1em;
+}
+
+/* filter text and checkboxes */
+.columns:last-child {
+    margin-bottom: -.75rem;
+    padding-top: 30px;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+}
+
+.tooltip>span {
+    visibility: hidden;
+    width: auto;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 12px 18px;
+    position: absolute;
+    z-index: 4;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -60px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.tooltip>span::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+
+.tooltip:hover>span {
+    visibility: visible;
+    opacity: 1;
+}
+
+.tooltip-page-top {
+    position: relative;
+    display: inline-block;
+}
+
+.tooltip-page-top>span {
+    visibility: hidden;
+    width: auto;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 12px 18px;
+    position: absolute;
+    z-index: 4;
+    top: 100%;
+    left: 50%;
+    margin-left: -60px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.tooltip-page-top>span::after {
+    content: " ";
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent #555 transparent;
+}
+
+.tooltip-page-top:hover>span {
+    visibility: visible;
+    opacity: 1;
+}
+
+#message-user {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+}
+
+#display-number, #clear-page {
+    margin-left: .5em;
+}
+
+/* Each individual column is by label name */
+label {
+    margin-bottom: 15px;
+}
+
+label.checkbox.is-flex-tablet.intolerances {
+    margin-left: 45px;
+}
+
+label.checkbox.is-flex-tablet.diet {
+    margin-left: 35px;
+}
+
+label.checkbox.is-flex-tablet.cuisine {
+    margin-left: 60px;
+}
+
+label.checkbox.is-flex-tablet.meal_type {
+    margin-left: 30px;
+}
+
+#navigation {
+    position: sticky !important;
+}
+
+.recipe {
+    margin-bottom: 2em;
+}
+
+.recipe-image {
+    width: 50% !important;
+    height: auto;
+    margin: auto;
+
+}
+
+label.checkbox.is-flex-tablet.cuisine {
+    margin-left: 60px;
+}
+
+    label.checkbox.is-flex-tablet.meal_type {
+        margin-left: 30px;
+    }
+
+    .subtitle{
+        font-family: 'Poppins', sans-serif;
+        color: #ffffff;
+        background-color: #0000002e;
+        word-spacing: 3;
+        line-height: 1.5;
+        font-size: 23;
+        padding: 15px;
+        text-align: left;
+        border-radius: 10px;
+    }
+    b{
+        font-weight:normal;
+    }
+label.checkbox.is-flex-tablet.meal_type {
+    margin-left: 30px;
+}
